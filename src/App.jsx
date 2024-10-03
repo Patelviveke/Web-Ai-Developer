@@ -86,7 +86,7 @@ function App() {
             </div>
           </div>
 
-          <div className="font-Montserrat font-medium text-[10px] sm:text-[12px] leading-[14.63px] text-white text-opacity-[74%] mt-[100px] sm:mt-[110px] flex flex-col items-center">
+          <div className="font-Montserrat font-medium text-[10px] sm:text-[12px] leading-[14.63px] text-white text-opacity-[74%] mt-[90px] sm:mt-[110px] flex flex-col items-center">
             <div className="mb-2">Discover more</div>
             <div
               className={`w-[20px] sm:w-[23px] h-[30px] sm:h-[36px] border-2 border-white rounded-3xl flex justify-center items-center mt-2 transition-transform duration-300 ease-in transform ${clicked ? 'scale-125' : 'scale-100'}`}
