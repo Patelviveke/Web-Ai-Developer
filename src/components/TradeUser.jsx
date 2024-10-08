@@ -26,8 +26,8 @@ const TradeUser = () => {
                         </div>
                         <img src="RedClock.svg" alt="" />
 
-                        <div className="flex justify-center items-center mt-8">
-                            <div className="flex items-center bg-gray-200 rounded-full p-2 shadow-lg">
+                        <div className="flex justify-center items-center mt-8 w-[90%] mx-auto sm:mx-0">
+                            <div className="flex items-center bg-gray-200 rounded-full p-1 md:p-2 shadow-lg">
                                 <input
                                     type="text"
                                     placeholder="Enter Your Email Id"
