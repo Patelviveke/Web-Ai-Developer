@@ -21,7 +21,7 @@ const TradeUser = () => {
                 {/* Text on top of the last image */}
                 <div className="absolute top-1/3 left-[1%] text-[#E0E0E0] z-20">
                     <div className='flex flex-col items-center justify-center'>
-                        <div className="font-manage text-[25px] sm:text-[60px] w-[100%] mb-24 lg:mb-10 font-bold leading-[77.82px] text-center">
+                        <div className="font-manage text-[22px] sm:text-[60px] w-[100%] mb-24 lg:mb-10 font-bold leading-[77.82px] text-center">
                             Trusted by <span className='text-[#D91222] whitespace-nowrap'>10 Millions</span>+ Users.
                         </div>
                         <img src="RedClock.svg" alt="" />
