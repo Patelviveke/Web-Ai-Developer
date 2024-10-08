@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ img, title, ShadowImg, SubTitle }) => {
   return (
-    <div className='w-[377.17px] h-[306.93px] bg-[#F3F3F3] rounded-[17.34px] relative'>
+    <div className='lg:w-[377.17px] w-[95%] h-[306.93px] bg-[#F3F3F3] rounded-[17.34px] relative'>
       <div className='w-[299.13px] h-[203.35px] mx-auto mt-[52.02px]'>
         {/* Card Image */}
         <div className='mb-6'>
