@@ -24,7 +24,15 @@ const NavbarAll = () => {
                 </div>
 
                 <div className="flex flex-col md:flex-row text-white justify-between px-5 sm:px-10 mt-28 pb-10 font-custom">
-                    <div className="font-bold leading-[28px] text-[22px] sm:text-[28px]">Forex-Tradie</div>
+                <NavLink
+                            to="/"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer border-b-2 border-blue-600'
+                                    : 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer'
+                            }
+                        > <div className="font-bold leading-[28px] text-[22px] sm:text-[28px]">Forex-Tradie</div>
+                        </NavLink>
                     <ul className="flex flex-wrap gap-[16px] sm:gap-[32px] mt-4 md:mt-0">
                         <NavLink
                             to="/guidance"
@@ -46,18 +54,46 @@ const NavbarAll = () => {
                         >
                             <li>Trusted Clients  </li>
                         </NavLink>
-                        <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer">
-                            What We Do
-                        </li>
-                        <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer">
-                            Get Started
-                        </li>
-                        <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer">
-                            Support
-                        </li>
-                        <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px]">
-                            Insta/YT
-                        </li>
+                        <NavLink
+                            to="/whatwedo"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer border-b-2 border-blue-600'
+                                    : 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer'
+                            }
+                        >
+                            <li>what We Do</li>
+                        </NavLink>
+                        <NavLink
+                            to="/getstarted"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer border-b-2 border-blue-600'
+                                    : 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer'
+                            }
+                        >
+                            <li>Get Started</li>
+                        </NavLink>
+                        <NavLink
+                            to="/support"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer border-b-2 border-blue-600'
+                                    : 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer'
+                            }
+                        >
+                            <li>Support</li>
+                        </NavLink>
+                        <NavLink
+                            to="/instayt"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer border-b-2 border-blue-600'
+                                    : 'font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer'
+                            }
+                        >
+                            <li>Insta/YT</li>
+                        </NavLink>
                     </ul>
                 </div>
             </div>
