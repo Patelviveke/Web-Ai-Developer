@@ -15,10 +15,10 @@ const GetStartedLast = () => {
                 <div className="absolute top-[18%] sm:top-1/3 w-full z-20">
                     <div className='flex flex-col items-center justify-center'>
                         <div className="font-manage text-[22px] sm:text-[36px] lg:text-[50px] w-full mb-1 sm:mb-6 lg:mb-5 font-bold leading-[40px] sm:leading-[64.85px] text-[#212326] text-center">
-                        Start Trading with <span className='text-[#D91222]'>Forex-Tradie Today!</span>
+                        Start Trading with <span className='text-[#D91222]'>Forexxy -Tradie Today!</span>
                         </div>
                         <p className='text-[#797979]  w-full sm:w-[90%] lg:w-1/2 p-2 sm:p-6 text-center'>
-                            Join Forex-Tradie today and take your trading to the next level. Whether you're a beginner or an experienced trader, we have everything you need to succeed in the financial markets.
+                            Join Forexxy -Tradie today and take your trading to the next level. Whether you're a beginner or an experienced trader, we have everything you need to succeed in the financial markets.
                         </p>
 
                         <div className="flex justify-center mx-auto mt-4 pl-0 lg:pl-10 w-[90%] sm:mx-0">

@@ -4,10 +4,10 @@ import Faq from './Faq';
 const SupportMain = () => {
     return (
         <>
-            <div className="relative w-full h-full mb-10">
+            <div className="relative w-full h-full mb-0">
                 {/* Background Image */}
                 <div
-                    className="w-full h-[1000px] mb-44 bg-no-repeat bg-cover"
+                    className="w-full h-[800px] mb-0 bg-no-repeat bg-cover"
                     style={{ backgroundImage: 'url(GuidanceBg.svg)' }}
                 ></div>
                 <div className="absolute top-40 left-0 w-full h-full flex justify-center items-start sm:items-start">
@@ -23,7 +23,7 @@ const SupportMain = () => {
                             We Are Here To Solve Your Doubts
                         </h1>
                         <p className="font-medium mt-6 text-[16px] md:text-[20px] lg:text-[22px] leading-[24px] md:leading-[32px] text-center text-[#797979] mb-6" style={{ fontFamily: 'DM Sans' }}>
-                            The Forex-Tradie is the key to unlocking the full potential of Trading.
+                            The Forexxy -Tradie is the key to unlocking the full potential of Trading.
                             <br /> Get even higher earning rates and our lowest borrowing rates.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center space-x-0 sm:space-x-4 mt-6">

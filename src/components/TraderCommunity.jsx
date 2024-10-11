@@ -16,7 +16,7 @@ const TraderCommunity = () => {
                 <div className='absolute inset-0 flex flex-col items-center text-white'>
                     <div className='w-full max-w-[1240px] h-auto px-4 sm:px-10 md:px-20 lg:px-0 mx-auto mt-0 sm:mt-10 flex flex-col justify-center items-center'>
                         <div className="font-manage text-[36px] sm:text-[48px] md:text-[60px] text-[#E6ECF7] font-bold leading-tight sm:leading-[64px] md:leading-[84px] text-center">
-                            Welcome to Our forex-tradie community
+                            Welcome to Our Forexxy -tradie community
                         </div>
                         <div className="font-custom mt-2 text-[14px] sm:text-[16px] md:text-[18px] text-[#A6AAB2] font-medium leading-tight sm:leading-[20px] md:leading-[24px] text-center">
                             Explore various trading strategies tailored to different market conditions
@@ -33,7 +33,7 @@ const TraderCommunity = () => {
                     <div className='absolute top-40 right-0 hidden lg:block'>
                         <img src="TradeCommunityBR.svg" alt="Right Decoration" />
                     </div>
-                    <div className='absolute top-[27%] right-[57%] hidden lg:block'>
+                    <div className='absolute top-[37%] right-[57%] hidden lg:block'>
                         <img src="TradeCommunityArrow.svg" alt="Arrow Decoration" />
                     </div>
                 </div>

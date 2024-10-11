@@ -9,7 +9,7 @@ const TradeMamber = () => {
                         We have members from every corner of the globe
                     </h1>
                     <p className="font-inter text-[14px] sm:text-[16.58px] font-normal leading-tight sm:leading-[23.95px] text-left text-[#061C3D] mb-6">
-                        Welcome to the Forex-Trade Community! Here, you can connect with fellow traders, share your experiences, and learn from one another. Whether you're a seasoned trader or just starting out, this is the place to discuss strategies, market trends, and all things trading. Dive into the latest discussions to see what topics are currently trending.
+                        Welcome to the Forexxy -Trade Community! Here, you can connect with fellow traders, share your experiences, and learn from one another. Whether you're a seasoned trader or just starting out, this is the place to discuss strategies, market trends, and all things trading. Dive into the latest discussions to see what topics are currently trending.
                     </p>
 
                     <button className="bg-[#D91222] text-white px-6 py-2 rounded-full font-bold text-[14px] sm:text-[14.74px] leading-tight sm:leading-[44.22px] text-left font-inter flex items-center gap-2">

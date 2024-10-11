@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container mx-auto px-4 lg:px-20">
                 {/* Top Row: Logo and Button */}
                 <div className="flex flex-col lg:flex-row justify-between items-center mb-3">
-                    <h2 className="text-2xl font-bold text-[#26CC57]">Forex-Tradie</h2>
+                    <h2 className="text-2xl font-bold text-[#26CC57]">Forexxy -Tradie</h2>
                     <button className="bg-[#D01222] text-white px-6 py-3 mt-4 lg:mt-0 rounded-full text-sm font-medium">
                         Get Started
                     </button>
@@ -41,7 +41,7 @@ const Footer = () => {
                         <p className="text-sm text-[#A6A6A6]">
                             +1 (406) 555-0120<br />
                             +1 (480) 555-0103<br />
-                            <a href="mailto:help@forex-tradie.com" className="text-white">help@forex-tradie.com</a>
+                            <a href="mailto:help@Forexxy -tradie.com" className="text-white">help@Forexxy -tradie.com</a>
                         </p>
                     </div>
 
@@ -73,7 +73,7 @@ const Footer = () => {
 
                 {/* Copyright Section */}
                 <div className="border-t border-[#334155] pt-6 text-center text-sm text-[#A6A6A6]">
-                    Copyright © Forex-Tradie
+                    Copyright © Forexxy -Tradie
                 </div>
             </div>
         </footer>

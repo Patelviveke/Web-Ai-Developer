@@ -3,7 +3,7 @@ import React from 'react';
 const Overwhelmade = () => {
     return (
         <>
-            <div className='mt-16 md:mt-60 w-full max-w-[1216px] h-auto mx-auto flex flex-col lg:flex-row gap-10'>
+            <div className=' mt-16 md:mt-10 w-full max-w-[1216px] h-auto mx-auto flex flex-col lg:flex-row gap-10'>
                 {/* Left Section */}
                 <div className='box1 w-full lg:w-[574.47px] h-auto pt-5 md:pt-20'>
                     <div className='w-[95%] mx-auto lg:w-[574.47px] h-auto'>
@@ -28,13 +28,13 @@ const Overwhelmade = () => {
                             <div className='flex gap-2'>
                                 <img src="Right.svg" alt="" />
                                 <div className='font-custom font-normal text-[14px] md:text-[16px] lg:text-[18px] leading-[24px] md:leading-[26px] lg:leading-[28.8px] text-[#797979]'>
-                                    Suitable for new and advanced Forex tradie
+                                    Suitable for new and advanced Forexxy  tradie
                                 </div>
                             </div>
                             <div className='flex gap-2'>
                                 <img src="Right.svg" alt="" />
                                 <div className='font-custom font-normal text-[14px] md:text-[16px] lg:text-[18px] leading-[24px] md:leading-[26px] lg:leading-[28.8px] text-[#797979]'>
-                                    Test your Forex knowledge with our interactive quizzes
+                                    Test your Forexxy  knowledge with our interactive quizzes
                                 </div>
                             </div>
                             <div className='flex gap-2'>

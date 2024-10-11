@@ -18,7 +18,7 @@ const WhatWeDoJourney = () => {
                             Start Your Trading Journey with Us
                         </div>
                         <p className='text-[#EBEBEB] text-opacity-[76%] w-full sm:w-1/2 p-2 sm:p-6 text-center'>
-                            Join Forex-Tradie today and take your trading to the next level. Whether you're a beginner or an experienced trader, we have everything you need to succeed in the financial markets.
+                            Join Forexxy -Tradie today and take your trading to the next level. Whether you're a beginner or an experienced trader, we have everything you need to succeed in the financial markets.
                         </p>
 
                         <div className="flex justify-center mx-auto mt-4 pl-0 lg:pl-10 w-[90%] sm:mx-0">

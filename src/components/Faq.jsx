@@ -10,7 +10,7 @@ const Faq = () => {
 
     return (
         <>
-            <div className="bg-[#1B223D] mb-60 py-10 px-10 text-white">
+            <div className="bg-[#1B223D] mb-24 py-10 px-10 text-white">
                 <div className="container mx-auto md:p-16 p-0">
                     <h1 className="font-bold text-[40px] text-center leading-[51.88px] mb-10 font-manage">
                         FAQ's
@@ -27,7 +27,7 @@ const Faq = () => {
                                 className="accordion-header cursor-pointer p-6 flex justify-between items-center"
                                 onClick={() => toggleAccordion(0)}
                             >
-                                <span className={`font-manage text-[18px] md:text-[20px] lg:text-[25px] leading-tight ${activeIndex === 0 ? 'text-[#3EBA59]' : 'text-white'}`}>What Is Forex-Trade?</span>
+                                <span className={`font-manage text-[18px] md:text-[20px] lg:text-[25px] leading-tight ${activeIndex === 0 ? 'text-[#3EBA59]' : 'text-white'}`}>What Is Forexxy -Trade?</span>
                                 <img
                                     src="DropDown.svg"
                                     alt="dropdown icon"
@@ -35,7 +35,7 @@ const Faq = () => {
                                 />
                             </div>
                             <div className={`accordion-content ${activeIndex === 0 ? 'block' : 'hidden'} p-4 text-[#0A1A2F]`}>
-                                <p className="text-[#9F9898] font-inter text-[18px] lg:ml-2 ml-0 font-normal leading-[28.8px] text-left">Forex trading is the act of buying and selling currencies.</p>
+                                <p className="text-[#9F9898] font-inter text-[18px] lg:ml-2 ml-0 font-normal leading-[28.8px] text-left">Forexxy  trading is the act of buying and selling currencies.</p>
                             </div>
                         </div>
 
@@ -45,7 +45,7 @@ const Faq = () => {
                                 className="accordion-header cursor-pointer p-6 flex justify-between items-center"
                                 onClick={() => toggleAccordion(1)}
                             >
-                                <span className={`font-manage text-[18px] md:text-[20px] lg:text-[25px] leading-tight ${activeIndex === 1 ? 'text-[#3EBA59]' : 'text-white'}`}>How Do I Sign Up For Forex-Trade?</span>
+                                <span className={`font-manage text-[18px] md:text-[20px] lg:text-[25px] leading-tight ${activeIndex === 1 ? 'text-[#3EBA59]' : 'text-white'}`}>How Do I Sign Up For Forexxy -Trade?</span>
                                 <img
                                     src="DropDown.svg"
                                     alt="dropdown icon"
@@ -63,7 +63,7 @@ const Faq = () => {
                                 className="accordion-header cursor-pointer p-6 flex justify-between items-center"
                                 onClick={() => toggleAccordion(2)}
                             >
-                                <span className={`font-manage text-[18px] md:text-[20px] lg:text-[25px] leading-tight ${activeIndex === 2 ? 'text-[#3EBA59]' : 'text-white'}`}>Is Forex-Trading Free To Use?</span>
+                                <span className={`font-manage text-[18px] md:text-[20px] lg:text-[25px] leading-tight ${activeIndex === 2 ? 'text-[#3EBA59]' : 'text-white'}`}>Is Forexxy -Trading Free To Use?</span>
                                 <img
                                     src="DropDown.svg"
                                     alt="dropdown icon"
@@ -132,7 +132,7 @@ const Faq = () => {
                                 />
                             </div>
                             <div className={`accordion-content ${activeIndex === 5 ? 'block' : 'hidden'} p-4 text-[#0A1A2F]`}>
-                                <p className="text-[#9F9898] font-inter text-[18px] lg:ml-2 ml-0 font-normal leading-[28.8px] text-left">Forex trading is the act of buying and selling currencies.</p>
+                                <p className="text-[#9F9898] font-inter text-[18px] lg:ml-2 ml-0 font-normal leading-[28.8px] text-left">Forexxy  trading is the act of buying and selling currencies.</p>
                             </div>
                         </div>
 
@@ -192,7 +192,7 @@ const Faq = () => {
                                 />
                             </div>
                             <div className={`accordion-content ${activeIndex === 8 ? 'block' : 'hidden'} p-4 text-[#0A1A2F]`}>
-                                <p className="text-[#9F9898] font-inter text-[18px] lg:ml-2 ml-0 font-normal leading-[28.8px] text-left">Forex trading is the act of buying and selling currencies.</p>
+                                <p className="text-[#9F9898] font-inter text-[18px] lg:ml-2 ml-0 font-normal leading-[28.8px] text-left">Forexxy  trading is the act of buying and selling currencies.</p>
                             </div>
                         </div>
 

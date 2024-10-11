@@ -4,7 +4,7 @@ import Card from './Card';
 const CardSection = () => {
     return (
         <>
-            <div className='mt-[1300px] mb-28 flex justify-end mr-14'>
+            <div className='lg:mt-[1300px] md:mt-[1120px] mt-[1300px] mb-28 flex justify-end mr-14'>
                 <img width={169.52} height={259.77} src="VerLine.svg" alt="" />
             </div>
 

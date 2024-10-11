@@ -5,7 +5,7 @@ const CurveDesign = () => {
     <>
       <div className='mt-60 w-[545.37px] ml-[112px] h-[45px] hidden lg:block'>
         <div className='font-custom font-bold text-[34.68px] leading-[44.98px] text-[#212326]'>
-          How to <span className='text-[#D91222]'>Trade With</span> Forex-Tradie
+          How to <span className='text-[#D91222]'>Trade With</span> Forexxy -Tradie
         </div>
       </div>
 

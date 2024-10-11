@@ -30,7 +30,7 @@ const WhatwedoStay = () => {
                                 />
                                 <CardStay
                                     title="Market Analysis"
-                                    description="Market analysis in Forex trading involves evaluating the market to make informed trading decisions. It’s an essential aspect for traders to understand price movements, trends, and potential future actions."
+                                    description="Market analysis in Forexxy  trading involves evaluating the market to make informed trading decisions. It’s an essential aspect for traders to understand price movements, trends, and potential future actions."
                                 />
                             </div>
                             <div className='flex flex-col gap-10'>
@@ -39,8 +39,8 @@ const WhatwedoStay = () => {
                                     description="Take advantage of our mentorship programs to receive personalized guidance from experienced traders. Improve your trading skills and gain valuable insights from your mentors."
                                 />
                                 <CardStay
-                                    title="Back Testing in Forex"
-                                    description="Backtesting in Forex trading is the process of testing a trading strategy on historical data to see how it would have performed in the past. It allows traders to simulate their strategies using real-world market conditions."
+                                    title="Back Testing in Forexxy "
+                                    description="Backtesting in Forexxy  trading is the process of testing a trading strategy on historical data to see how it would have performed in the past. It allows traders to simulate their strategies using real-world market conditions."
                                 />
                             </div>
                         </div>

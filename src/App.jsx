@@ -7,6 +7,7 @@ import Support from './components/Support';
 import WhatWeDo from './components/WhatWeDo';
 import Getstarted from './components/Getstarted';
 import Instayt from './components/Instayt';
+import LoginPage from './components/LoginPage';
 
 
 function App() {
@@ -38,6 +39,10 @@ function App() {
     {
       path: "/instayt",
       element: <><Instayt/></>
+    },
+    {
+      path: "/login",
+      element: <><LoginPage/></>
     },
   ])
   return (

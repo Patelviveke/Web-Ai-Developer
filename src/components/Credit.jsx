@@ -31,7 +31,7 @@ const Credit = () => {
                     </div>
                 </div>
 
-                <div className='absolute top-80 w-[95%] md:w-[80%] h-auto mx-auto left-0 right-0 px-4'>
+                <div className='absolute top-40 md:top-48 lg:top-80 w-[95%] md:w-[80%] h-auto mx-auto left-0 right-0 px-4'>
                     <div className='w-full h-auto mb-12 text-center md:text-start'>
                         <div className='font-manage font-bold text-[28px] md:text-[34.68px] text-[#D91222] leading-[44.98px]'>
                             Credit,
