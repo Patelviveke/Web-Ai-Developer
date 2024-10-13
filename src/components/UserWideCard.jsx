@@ -3,7 +3,7 @@ import React from 'react'
 const UserWideCard = () => {
     return (
         <>
-            <div className='w-[323.73px] h-[426.33px] bg-[#334155] mx-auto rounded-[16.86px] border border-[#475569]'>
+            <div className=' h-[426.33px] bg-[#334155] mx-auto rounded-[16.86px] border border-[#475569]'>
                 <div className='w-[269.78px] h-[53.96px] flex p-4 gap-2  items-center'>
                     <div><img src="Sheels.svg" alt="" /></div>
                     <div className='font-custom text-[#94A3BB] text-[20.23px] font-bold leading-[22.26px] text-left'>

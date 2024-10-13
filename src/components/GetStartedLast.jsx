@@ -3,7 +3,7 @@ import React from 'react'
 const GetStartedLast = () => {
   return (
     <>
-      <div className="relative mb-[300px] sm:mb-[400px] lg:mb-[500px]">
+      <div className="relative mb-[150px] sm:mb-[400px] lg:mb-[500px]">
                 {/* Last image underneath the blue image */}
                 <img
                     src="GetstartedLastBg.svg"
@@ -17,7 +17,7 @@ const GetStartedLast = () => {
                         <div className="font-manage text-[22px] sm:text-[36px] lg:text-[50px] w-full mb-1 sm:mb-6 lg:mb-5 font-bold leading-[40px] sm:leading-[64.85px] text-[#212326] text-center">
                         Start Trading with <span className='text-[#D91222]'>Forexxy -Tradie Today!</span>
                         </div>
-                        <p className='text-[#797979]  w-full sm:w-[90%] lg:w-1/2 p-2 sm:p-6 text-center'>
+                        <p className='text-[#797979]  w-full sm:w-[95%] lg:w-1/2 p-2 sm:p-6 text-center'>
                             Join Forexxy -Tradie today and take your trading to the next level. Whether you're a beginner or an experienced trader, we have everything you need to succeed in the financial markets.
                         </p>
 

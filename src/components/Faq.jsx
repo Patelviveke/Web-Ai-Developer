@@ -10,7 +10,7 @@ const Faq = () => {
 
     return (
         <>
-            <div className="bg-[#1B223D] mb-24 py-10 px-10 text-white">
+            <div className="bg-[#1B223D] mb-24 py-10 px-4 md:px-10 text-white">
                 <div className="container mx-auto md:p-16 p-0">
                     <h1 className="font-bold text-[40px] text-center leading-[51.88px] mb-10 font-manage">
                         FAQ's

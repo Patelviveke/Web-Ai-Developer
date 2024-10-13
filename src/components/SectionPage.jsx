@@ -4,7 +4,7 @@ const SectionPage = () => {
     return (
         <div className='bg-[#F1F5F9] relative'>
             {/* Main heading */}
-            <div className='pt-[100px] max-w-[920px] w-full mx-auto text-center font-manage font-bold text-[30px] sm:text-[42px] leading-[35px] sm:leading-[51.71px] px-4'>
+            <div className='pt-[100px] max-w-[920px] w-full mx-auto text-center font-manage font-bold text-[30px] sm:text-[42px] leading-[35px] sm:leading-[51.71px] px-6 sm:px-4'>
                 <span className='text-[#090922]'>Over 83,000 Forexxy  traders worldwide trust Forexxy -Tradie.com - </span>
                 <span className='text-[#D91222]'> now it's your turn</span>
             </div>

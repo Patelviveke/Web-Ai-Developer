@@ -11,7 +11,7 @@ const CostumerRating = () => {
                     Around <span className="text-[#D91222]">4.7/5 stars</span>
                 </h2>
 
-                <div className="flex justify-center mt-8 space-x-8">
+                <div className="flex flex-col md:flex-row gap-5 justify-center mt-8 space-x-0 md:gap-0 md:space-x-8">
                     <div className="text-center">
                         <div className="flex justify-center mb-2">
                             <img src="Star.svg" alt="" />

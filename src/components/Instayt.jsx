@@ -14,7 +14,7 @@ const Instayt = () => {
     return (
         <>
             <NavbarAll />
-            <div className='relative mb-[400px] sm:mb-80 lg:mb-40'>
+            <div className='relative mb-[520px] sm:mb-80 lg:mb-40'>
                 <img src="InstaytBg.svg" alt="" className="w-full h-auto" />
                 <div className='absolute top-0 w-full'>
                     <img src="InstaytBg2.svg" alt="" className="w-full h-auto" />
@@ -33,7 +33,7 @@ const Instayt = () => {
                         <button type="button" className="py-3 px-6 sm:py-4 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-full border border-[#EF443B33] border-opacity-20 font-custom font-bold">
                             Instagram Community
                         </button>
-                        <button type="button" className="py-3 px-6 sm:py-4 sm:px-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-full border border-[#EF443B33] border-opacity-20 font-custom font-bold">
+                        <button type="button" className="py-3 px-6 sm:py-4 sm:px-10 text-[14px] sm:text-[16px] md:text-white focus:outline-none rounded-full border border-[#EF443B33] border-opacity-20 font-custom font-bold">
                             <div className='flex items-center gap-3'>
                                 <img src="Plays.svg" alt="" />
                                 <div>YouTube Community</div>
@@ -42,7 +42,7 @@ const Instayt = () => {
                     </div>
                 </div>
 
-                <div className='w-[90%] sm:w-[750px] h-[380px] sm:h-[500px] lg:w-[1020px] lg:h-[715px] absolute top-full lg:top-1/2 sm:top-[70%] left-0 right-0 mx-auto bg-white border border-gray-700 rounded-lg'>
+                <div className='w-[90%] sm:w-[730px] h-[380px] sm:h-[500px] lg:w-[1020px] lg:h-[715px] absolute top-[145%] lg:top-1/2 sm:top-[70%] left-0 right-0 mx-auto bg-white border border-gray-700 rounded-lg'>
                     {/* Content can be added here */}
                 </div>
             </div>

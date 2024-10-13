@@ -12,7 +12,7 @@ const Imgsection = () => {
                 />
 
                 {/* Adjusted Container Sizes for Responsiveness */}
-                <div className='relative w-full max-w-[1216px] h-auto flex flex-col mt-20 mb-20 mx-auto z-10 p-2'>
+                <div className='relative w-full max-w-[1216px] h-auto flex flex-col mt-20 mb-20 mx-auto z-10 p-6 sm:p-2'>
                     <div className="flex flex-wrap justify-between py-2 gap-y-6 gap-x-8 md:gap-x-[110px]">
                         <img src="Coinxy.svg" alt="Coinxy" className="w-[120px] h-auto md:w-auto" />
                         <img src="GreenBox.svg" alt="GreenBox" className="w-[120px] h-auto md:w-auto" />
@@ -42,7 +42,7 @@ const Imgsection = () => {
                             </div>
                         </div>
 
-                        <div className='text-center font-inter text-[14px] md:text-[18px] text-[#797979] mt-3'>
+                        <div className='text-center font-inter text-[14px] md:text-[18px] text-[#797979] mt-3 px-4 sm:px-0'>
                             Free equity investments and flat ₹20 intraday and F&O trades even higher earning rates and our lowest borrowing rates.
                         </div>
 
@@ -60,7 +60,7 @@ const Imgsection = () => {
                     </div>
 
                     {/* Date & Time Section */}
-                    <div className="absolute top-[80%] md:top-[65%] left-[15%] md:left-[30%]">
+                    <div className="absolute hidden md:block top-[80%] md:top-[65%] left-[15%] md:left-[30%]">
                         <div className='border bg-[#E0E0E0] w-[200px] md:w-[255px] h-[60px] md:h-[78px] rounded-[10px]'>
                             <div className='p-3 flex justify-between'>
                                 <div className='font-inter text-[12px] md:text-[14px]'>6/6/2024</div>

@@ -31,11 +31,11 @@ const Getstarted = () => {
     return (
         <>
             <NavbarAll />
-            <div className='relative h-[1300px] sm:h-[1015px] lg:h-auto mb-32'>
+            <div className='relative h-[1300px] sm:h-[1015px] lg:h-auto mb-16 md:mb-32'>
                 <img src="Getstarted.svg" alt="" className='w-full h-auto' />
                 <div className='absolute top-0 w-full max-w-6xl mx-auto lg:ml-10'>
-                    <div className="flex flex-col items-center justify-center min-h-screen p-6">
-                        <div className="flex flex-col md:flex-row items-center justify-between w-full p-6">
+                    <div className="flex flex-col items-center justify-center min-h-screen p-0">
+                        <div className="flex flex-col md:flex-row items-center justify-between w-full p-0">
                             <div className="md:w-1/2 p-6">
                                 <h1 className="font-bold text-left text-[#212326] font-manage text-[36px] lg:text-[55px] leading-[48px] md:text-[50px] md:leading-[51.33px] lg:leading-[84.31px]">
                                     Get Started With
@@ -80,7 +80,7 @@ const Getstarted = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="md:w-[420px] w-full h-auto bg-white rounded-[30px] shadow-lg mt-8 md:mt-0">
+                            <div className="md:w-[420px] w-full h-auto bg-white rounded-[30px] shadow-lg mt-8 md:mt-0 px-8 py-4">
                                 <div className="bg-[#190041] text-white text-center py-4 rounded-t-lg">
                                     <h2 className="text-xl font-bold">Forexxy -TRADIE</h2>
                                 </div>

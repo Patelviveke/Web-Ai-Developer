@@ -16,8 +16,8 @@ const GuidanceMain = () => {
         {/* Text Positioned on Top */}
         <div className="absolute top-0 left-0 w-full h-full z-10"> {/* Ensure z-index is lower than sidebar */}
           <div className="flex items-center justify-center overflow-x-hidden min-h-screen">
-            <div className="flex flex-col lg:flex-row items-center md:items-start space-y-8 md:-space-y-10 md:space-x-20 -mt-40 md:mt-24 lg:mt-52">
-              <div className="text-center md:text-left w-full sm:w-[400px] md:w-[501.24px] h-auto p-10 sm:p-0">
+            <div className="flex flex-col lg:flex-row items-center md:items-start space-y-8 md:-space-y-10 md:space-x-20 -mt-4 md:mt-24 lg:mt-52">
+              <div className="text-center md:text-left w-full sm:w-[400px] md:w-[501.24px] h-auto p-10 sm:p-4">
                 <div className="w-full h-auto mb-8 sm:mb-16">
                   <h1 className="text-[28px] sm:text-[36px] md:text-[49.25px] font-custom font-bold leading-[34px] sm:leading-[45px] md:leading-[57.71px] text-left mb-4 sm:mb-2 text-[#191A15]">
                     We’re here to Increase your Trading Knowledge
@@ -43,7 +43,7 @@ const GuidanceMain = () => {
               </div>
 
               <div>
-                <img className="-mt-[11px] sm:mt-[35px] lg:mt-0" src="GuidanceRight.svg" alt="" />
+                <img className="-mt-[11px] sm:mt-[35px] lg:mt-0 px-5 sm:px-2 lg:px-0" src="GuidanceRight.svg" alt="" />
               </div>
             </div>
           </div>

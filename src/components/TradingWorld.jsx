@@ -18,7 +18,7 @@ const TradingWorld = () => {
                         <input
                             type="email"
                             placeholder="Enter your email here"
-                            className="w-full sm:w-3/4 lg:w-1/2 px-4 py-4 pr-12 rounded-full border-2 border-[#A6A6A6] text-gray-700 bg-transparent" // Set bg-transparent for no background
+                            className="w-full sm:w-3/4 lg:w-1/2 px-4 py-4 pr-12 rounded-full border-2 border-[#A6A6A6] bg-transparent text-white" // Set bg-transparent for no background
                         />
                         <button className="absolute right-4 bottom-2 sm:right-20 lg:right-[230px] w-10 h-10 flex items-center justify-center rounded-full bg-[#54BD95]">
                             <img src="RightArrow.svg" alt="" />

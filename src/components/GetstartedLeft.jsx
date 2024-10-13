@@ -3,13 +3,13 @@ import React from 'react';
 const GetstartedLeft = ({ imageSrc, title, subtitle, signupLink, steps1, stepnumber, steps2, steps3})  => {
     return (
         <>
-            <div className="flex justify-center items-center h-[587.84px] lg:h-auto sm:h-[493.84px] p-4">
+            <div className="flex justify-center items-center h-[587.84px] lg:h-auto sm:h-[493.84px] p-0">
                 <div className="flex flex-col lg:flex-row ml-0 lg:ml-20 items-start p-6 rounded-lg">
                     {/* Image section */}
                     <img src={imageSrc} alt="Getting started with Quotex" className="w-full md:w-1/2 h-auto mx-auto" />
                     
                     {/* Text section */}
-                    <div className="mt-6 md:mt-0 md:ml-6 text-left p-4 md:p-6">
+                    <div className="mt-6 md:mt-0 md:ml-6 text-left p-0 md:p-6">
                         <h2 className="font-manage text-[30px] md:text-[40px] pr-0 lg:pr-16 lg:pl-5 pl-0 pb-4 font-medium leading-[36px] md:leading-[48px] text-[#D91222]">
                             Step {stepnumber}: <span className="text-[#181426]">{title} {subtitle}</span>
                         </h2>

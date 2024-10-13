@@ -4,7 +4,7 @@ import Contact from './Contact';
 const Active = () => {
     return (
         <>
-            <div className='w-full max-w-[409.32px] h-auto mx-auto m-8'>
+            <div className='w-full sm:max-w-[409.32px] max-w-[285.32px] h-auto mx-auto m-8'>
                 {/* Button group */}
                 <div className='w-full max-w-[226.96px] h-[28.67px] flex gap-2 justify-between'>
                     <button>

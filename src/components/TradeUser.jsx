@@ -31,7 +31,7 @@ const TradeUser = () => {
                                 <input
                                     type="text"
                                     placeholder="Enter Your Email Id"
-                                    className="bg-gray-200 text-gray-500 placeholder-[#C6C6C6] font-inter font-normal text-[18px] leading-[23.35px] focus:outline-none rounded-full px-4 py-2 w-64"
+                                    className="bg-gray-200 text-gray-500 placeholder-[#C6C6C6] font-inter font-normal text-[18px] leading-[23.35px] focus:outline-none rounded-full px-4 py-2 w-44 md:w-64"
                                 />
                                 <button className="bg-[#D91222] font-inter font-medium text-[18px] leading-[23.35px] text-white rounded-full px-6 py-2 ml-2">
                                     Sign Up

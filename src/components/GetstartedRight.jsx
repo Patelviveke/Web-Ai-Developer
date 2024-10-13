@@ -4,7 +4,7 @@ const GetstartedRight = ({ title, step1, step2, imageSrc }) => {
     return (
         <>
             <div className="flex justify-center items-center min-h-screen p-4">
-                <div className="flex flex-col p-10 lg:flex-row ml-0 items-start lg:items-center lg:ml-10 rounded-lg">
+                <div className="flex flex-col p-0 lg:flex-row ml-0 items-start lg:items-center lg:ml-10 rounded-lg">
                     {/* Text section */}
                     <div className="mt-6 md:mt-0 md:ml-6 text-left p-4 md:p-6">
                         <h2 className="font-manage text-[30px] md:text-[40px] pb-4 font-medium leading-[36px] md:leading-[48px] text-[#D91222]">

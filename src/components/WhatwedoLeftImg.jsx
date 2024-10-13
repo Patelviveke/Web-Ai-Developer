@@ -3,7 +3,7 @@ import React from 'react'
 const WhatwedoLeftImg = () => {
   return (
     <>
-       <div className=" flex mb-80 flex-col lg:flex-row items-center justify-between p-8  rounded-lg max-w-7xl mx-auto">
+       <div className=" flex mb-10 flex-col lg:flex-row items-center justify-between p-8  rounded-lg max-w-7xl mx-auto">
                 {/* Right Side: Chart Section */}
                 <div className="lg:w-[48%] flex items-center justify-center relative">
                     <img src="QuatoxLeft.svg" alt="" />

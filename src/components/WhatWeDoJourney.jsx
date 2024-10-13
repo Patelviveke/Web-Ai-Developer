@@ -3,7 +3,7 @@ import React from 'react';
 const WhatWeDoJourney = () => {
     return (
         <>
-            <div className="relative mb-[300px] sm:mb-[400px] lg:mb-[500px]">
+            <div className="relative mb-[350px] sm:mb-[400px] lg:mb-[500px]">
                 {/* Last image underneath the blue image */}
                 <img
                     src="TradeLastBg.svg"
@@ -14,10 +14,10 @@ const WhatWeDoJourney = () => {
                 {/* Text on top of the last image */}
                 <div className="absolute top-[18%] sm:top-1/3 w-full z-20">
                     <div className='flex flex-col items-center justify-center'>
-                        <div className="font-manage text-[22px] sm:text-[36px] lg:text-[50px] w-full mb-1 sm:mb-6 lg:mb-5 font-bold leading-[40px] sm:leading-[64.85px] text-white text-center">
+                        <div className="font-manage text-[22px] sm:text-[36px] lg:text-[50px] w-full mb-16 sm:mb-6 lg:mb-5 font-bold leading-[40px] sm:leading-[64.85px] text-white text-center">
                             Start Your Trading Journey with Us
                         </div>
-                        <p className='text-[#EBEBEB] text-opacity-[76%] w-full sm:w-1/2 p-2 sm:p-6 text-center'>
+                        <p className='md:text-[#EBEBEB] text-opacity-[76%] w-full sm:w-1/2 p-2 sm:p-6 text-center'>
                             Join Forexxy -Tradie today and take your trading to the next level. Whether you're a beginner or an experienced trader, we have everything you need to succeed in the financial markets.
                         </p>
 

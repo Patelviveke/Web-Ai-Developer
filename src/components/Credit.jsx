@@ -18,7 +18,7 @@ const Credit = () => {
                     <div className='w-[90%] lg:w-[456px] gap-6 mx-auto'>
                         <button 
                             type="button" 
-                            className="py-3 lg:py-4 px-6 lg:px-10 mb-4 mr-4 lg:mr-10 text-[14px] lg:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] font-custom font-bold"
+                            className="py-3 lg:py-4 px-6 lg:px-10 mb-4 mr-4 lg:mr-10 text-[14px] lg:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] font-custom font-bold ml-4 sm:ml-0"
                         >
                             Get Started
                         </button>
@@ -46,7 +46,7 @@ const Credit = () => {
                             <img src="CreditImg.svg" alt="Credit Image" className="w-full h-auto object-contain" />
                         </div>
 
-                        <div className='absolute w-[90%] lg:w-[1052.71px] h-auto top-[187.29px] left-[52%] transform -translate-x-1/2 mx-auto'>
+                        <div className='absolute w-[90%] lg:w-[1052.71px] h-auto top-[17.29px] sm:top-[187.29px] left-[52%] transform -translate-x-1/2 mx-auto'>
                             <div className='flex flex-col lg:flex-row justify-between'>
                                 <div className='font-manage font-bold text-white text-[24px] lg:text-[34.74px] leading-[45.06px] text-center'>
                                     Your Money...Your Choice
